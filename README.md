@@ -1,2 +1,3 @@
 # Youtube-video-downloader-with-requests
-An api that allows you to download youtube videos by just having the url, consult the read me for more specific info
+An api that allows you to download youtube videos by just having the url.
+In order to make it works open the get_google_stream_URL first and replace the url variable with the url of the video you want to download, start the code, this will create a "Stream.txt" file, open it and get the URL based on what format or quality you want to download the video (or only the audio) with. Get this Url and open the "video downloader with request.py" code, put your user agent and put the url that you copied before in the url variable. Start the code and the video will be downloaded. 
